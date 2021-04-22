@@ -1,16 +1,13 @@
 class Players:
     def __init__(self):
-        self.player_one_name = ""
-        self.player_two_name = ""
-        self.player_one_chooses = ""
-        self.player_two_chooses = ""
+         self.gesture_list = ['Rock', 'Paper', 'Scissor', 'Lizard', 'Spock']
+         self.name = ""
+         self.chosen_gesture = ""
+         self.score = ""
 
-
-    def player_one(self):
-        self.player_one_name = "Goliath the Conquer"
-        self.player_one_chooses = ['Rock', 'Paper', 'Spock', 'Lizard', 'Scissors']
-        print(self.player_one_name)
-        print(self.player_one_chooses)
+    def player_name(self):
+        self.name = " name for player one: "
+        print(self.name)
 
     def player_two(self):
         self.player_two_name = "David the Challenger"

@@ -1,22 +1,18 @@
+Ultimate_RPSLS = "A game of taking rock, paper, scissor to the next level!"
+print(Ultimate_RPSLS)
+
+Welcome_message = "Welcome to a game of Ultimate risk!"
+print(Welcome_message)
+
+Ultimate_rules = "Simple, each player must place all chips on chance and strategy, 1st to win 4 out of 5 rounds wins!"
+print(Ultimate_rules)
+
+Ultimate_competitors = "This will be a contest between two robust competitors!"
+print(Ultimate_competitors)
 
 
-class Game:
-     def __init__(self):
-        self.players = [self.player_one, self.player_two]
-        self.select_gesture = [
-            
-        ]
 
 
-
-     def game_play(self):
-         if self.rock > self.scissors
-
-     def welcome_message(self):
-         print("Welcome to Ultimate RPSLS!")
-
-     def game_rules(self):
-         print("Rule of RPSLS every round each player will select a gesture until one player wins 2 out of 3 rounds")
 
 
 
