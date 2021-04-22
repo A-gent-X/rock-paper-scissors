@@ -1,3 +1,30 @@
+from Human import Human
+from Computer import Computer
+from Players import Players
+from Rock import Rock
+from Paper import Paper
+from Scissors import Scissors
+from Lizard import Lizard
+from Spock import Spock
+
+Players()
+PlayerOne = Human.Brock
+playerAI = Computer.Beta
+playerTwo = Human.Jade
+playerAI = Computer.Beta
+playerOne = Human.Brock
+playerTwo = Human.Jade
+Rock()
+Rock = Rock.Geo
+Paper()
+Paper = Paper.Ms. Orgami
+Scissors()
+Scissors = Scissors.Slasher
+Lizard()
+Lizard = Lizard.Reptile
+Spock()
+Spock = Spock
+
 Ultimate_RPSLS = "A game of taking rock, paper, scissor to the next level!"
 print(Ultimate_RPSLS)
 
@@ -10,10 +37,7 @@ print(Ultimate_rules)
 Ultimate_competitors = "This will be a contest between two robust competitors!"
 print(Ultimate_competitors)
 
-
-
-
-
+if PlayerOne
 
 
 

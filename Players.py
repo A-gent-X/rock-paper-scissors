@@ -3,15 +3,24 @@ class Players:
          self.gesture_list = ['Rock', 'Paper', 'Scissor', 'Lizard', 'Spock']
          self.name = ""
          self.chosen_gesture = ""
+         self.chosen_gesture2 = ""
+         self.chosen_gesture3 = ""
          self.score = ""
 
     def player_name(self):
-        self.name = " name for player one: "
+        self.name = " name for player: "
         print(self.name)
 
-    def player_two(self):
-        self.player_two_name = "David the Challenger"
-        self.player_two_chooses = ['Spock', 'Rock', 'Scissors', 'Paper', 'Lizard']
-        print(self.player_two_name)
-        print(self.player_two_chooses)
+    def chosen_gesture(self):
+        self.chosen_gesture = "choose a gesture for", self.name
+        print(self.chosen_gesture)
+
+    def player_score(self):
+        self.score = "every round won determines players score"
+        print(self.score)
+
+
+
+
+
 
