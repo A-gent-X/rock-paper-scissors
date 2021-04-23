@@ -10,15 +10,15 @@ class Players:
         print(self.gesture_list)
 
     def player_name(self):
-        self.name = input" name for player: "
+        self.name = input("name for player:")
         print(self.name)
 
     def chosen_gesture(self):
-        self.chosen_gesture = input"choose a gesture for", self.name
+        self.chosen_gesture = input("choose a gesture for", self.name)
         print(self.chosen_gesture)
 
     def player_score(self):
-        self.score = input"every round won contributes a point to players score"
+        self.score = input("every round won contributes a point to players score")
         print(self.score)
 
 

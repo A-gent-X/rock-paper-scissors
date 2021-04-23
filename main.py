@@ -1,7 +1,9 @@
 from Game import Game
 
+
+GAME = Game.run_game()
 Game = Game()
-Game.run_Game()
+
 
 
 
