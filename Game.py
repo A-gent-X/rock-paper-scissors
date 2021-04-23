@@ -1,43 +1,88 @@
 from Human import Human
-from Computer import Computer
+from Computer import computer
 from Players import Players
-from Rock import Rock
-from Paper import Paper
-from Scissors import Scissors
-from Lizard import Lizard
-from Spock import Spock
+from Gestures import gestures
 
-Players()
-PlayerOne = Human.Brock
-playerAI = Computer.Beta
-playerTwo = Human.Jade
-playerAI = Computer.Beta
-playerOne = Human.Brock
-playerTwo = Human.Jade
-Rock()
-Rock = Rock.Geo
-Paper()
-Paper = Paper.Ms. Orgami
-Scissors()
-Scissors = Scissors.Slasher
-Lizard()
-Lizard = Lizard.Reptile
-Spock()
-Spock = Spock
 
-Ultimate_RPSLS = "A game of taking rock, paper, scissor to the next level!"
-print(Ultimate_RPSLS)
+class Game:
+    def __init__(self):
+        self.Player = Players
+        self.gestures = gestures
 
-Welcome_message = "Welcome to a game of Ultimate risk!"
-print(Welcome_message)
+    def set_Players(self):
+        self.Players = input[Human, computer]
+        print(self.Players)
 
-Ultimate_rules = "Simple, each player must place all chips on chance and strategy, 1st to win 4 out of 5 rounds wins!"
-print(Ultimate_rules)
+    def set_Gestures(self):
+        self.gestures = input(gestures)
+        print(self.gestures)
 
-Ultimate_competitors = "This will be a contest between two robust competitors!"
-print(Ultimate_competitors)
+def run():
+    greeting()
 
-if PlayerOne
+def greeting():
+
+    Welcome_greeting = "Welcome to a game of Ultimate risk!"
+    print(Welcome_greeting, "Ultimate match of Rock, Paper and Scissors played on the next level!")
+
+    Ultimate_rules = "Simple, each player must place all chips on chance, luck and strategy"
+    print(Ultimate_rules, "Choose wisely, 1st to win 2 out of 3 rounds wins!")
+
+    Ultimate_competitors = "This will be a contest between two robust competitors!"
+    print(Ultimate_competitors, "Good luck to all challengers and leeeeeets the games begin!")
+
+while Game:
+    if Human.chosen_gesture() > computer.gesture_list():
+        break
+
+#     print("PlayerAI wins the round!")
+# elif PlayerOne.Lizard > PlayerAI.Paper:
+#     print("PlayerAI is the victor!")
+# else:
+#     print("PlayerAI claims this round!")
+#
+# if PlayerOne.Paper < PlayerAI.Spock:
+#     print("PlayerOne wins!")
+# elif PlayerOne.Lizard < PlayerAI.Paper:
+#     print("PlayerOne takes the win!")
+# else:
+#     print("PaperOne is victor lets begin final round!")
+#
+# if PlayerOne.Scissors < PlayerAI.Paper:
+#     print("PlayerAI takes the round!")
+# elif PlayerOne.Spock < PlayerAI.Rock:
+#     print("PlayerOne is the victor!")
+# else:
+#     print("PaperOne won 2 out of 3 Brock is victorious!")
+#
+#
+# if PlayerOne.Paper < PlayerTwo.Spock:
+#     print("PlayerOne wins the round!")
+# elif PlayerOne.Spock < PlayerTwo.Rock:
+#     print("PlayerOne is victor!")
+# else:
+#     print("PaperOne win round 1!")
+#
+# if PlayerOne.Scissors > PlayerTwo.Rock:
+#     print("Player wins the round!")
+# elif PlayerOne.Paper > PlayerTwo.Lizard:
+#     print("PlayerOne is the victor!")
+# else:
+#     print("PaperOne tekes round 2!")
+#
+# if PlayerOne.Lizard < PlayerTwo.Spock:
+#     print("Player wins the round!")
+# elif PlayerOne.Rock > PlayerTwo.Paper:
+#     print("PlayerOne is the victor!")
+# elif PlayerOne.Scissors < PlayerTwo.Rock:
+#     print("PlayerTwo wins!")
+# else:
+#     print("PaperTwo is the Ultimate Champion!")
+#
+#
+#
+
+
 
 
 
