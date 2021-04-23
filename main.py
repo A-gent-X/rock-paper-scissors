@@ -1,10 +1,8 @@
-from Game import Game
+from game import Game
 
 
-GAME = Game.run_game()
-Game = Game()
-
-
+game = Game()
+game.run_goblin()
 
 
 
