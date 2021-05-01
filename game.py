@@ -1,43 +1,123 @@
-# from Human import Human
-# from Computer import computer
-# from Players import Players
+from human import Human
+from computer import Computer
+from players import Players
 
 class Game:
+    def __int__(self):
+        self.start = ""
+        self.robot = ""
+        self.underscore = ""
+        self.intro = ""
+        self.dash = ""
+        self.greet = ""
+        self.rule = ""
+        self.rules = ""
+        self.competitors = ""
+        self.message = ""
+        self.ready = ""
+        self.choose = ""
+        self.select = ""
+        self.Select = ""
+        self.selectOne = ""
+        self.index = ""
+        self.about = ""
+        self.gest = ""
+        self.gestOne = ""
+        self.gestTwo = ""
+        self.gestThree = ""
+        self.gestFour = ""
+        self.start = ""
+        self.close = ""
 
-    def __init__(self):
-        self.goblin = "goblin!"
+    def underscore(self):
+        self.underscore = "{\n_______________________Ultimate__Introduction__________________________________}"
+        print(self.underscore)
 
-    def run_goblin(self):
-        print(self.goblin)
+    def intro(self):
+        self.intro = "\nUltimate match of Rock, Paper and Scissors played on the next level!"
+        print(self.intro)
 
+    def dash(self):
+        self.dash = "{\n________________________Welcome__to__RPSLS!____________________________________}"
+        print(self.dash)
 
+    def greet(self):
+        self.greet = "\n                   Welcome to a game of Ultimate risk!"
+        print(self.greet)
 
-#     Welcome_greeting = "Welcome to a game of Ultimate risk!"
-#     print(Welcome_greeting, "Ultimate match of Rock, Paper and Scissors played on the next level!")
+    def rule(self):
+        self.rule = "{\n_______________________________Rules___________________________________________}"
+        print(self.rule)
 
-#     Ultimate_rules = "Simple, each player must place all chips on chance, luck and strategy"
-#     print(Ultimate_rules, "Choose wisely, 1st to win 2 out of 3 rounds wins!")
+    def rules(self):
+        self.rules = "\nEach player has a chance to draw a gesture 1st to win 2 out of 3 rounds wins!"
+        print(self.rules)
 
-#     Ultimate_competitors = "This will be a contest between two robust competitors!"
-#     print(Ultimate_competitors, "Good luck to all challengers and lets the games begin!")
+    def competitors(self):
+        self.competitors = "{\n___________________________Competitors!________________________________________}"
+        print(self.competitors)
 
-# # def run_game():
+    def message(self):
+        self.message = "\nThis is contest between two robust gladiators, may Tyche grace you with fortune!"
+        print(self.message)
 
-# #     while Game:
-# #         if computer.chosen_gesture() > Human.chosen_gesture():
-# #             print(computer, "wins!")
-# #         if computer.chosen_gesture() < Human.chosen_gesture():
-# #             print(Human, "is victorious!")
-# #         if computer.chosen_gesture() == Human.chosen_gesture():
-# #             print("It's look like we have a stale mate!")
-# #         if computer.chosen_gesture() < Human.chosen_gesture():
-# #             print("Human triumphs over machine this round!")
+    def ready(self):
+        self.ready = "{\n__________________________Ready__Players!______________________________________}"
+        print(self.ready)
 
+    def blank(self):
+        self.blank = "\n                                                                                 \n"
 
+    def choose(self):
+        self.choose = "\n                        Choose your Characters"
+        print(self.choose)
 
+    def select(self):
+        self.select = "\n                 Select Human            Select AI"
+        print(self.select)
 
+    def Select(self):
+        self.Select = "\n                [Professor X]              [Beta]"
+        print(self.Select)
 
+    def selectOne(self):
+        self.selectOne = "\n              [Satish the Skater]        [Alpha T90]"
+        print(self.selectOne)
 
+    def index(self):
+        self.index = "{\n______________________________Index____________________________________________}"
+        print(self.index)
 
+    def about(self):
+        self.about = "\n                           About Gestures"
+        print(self.about)
+
+    def gest(self):
+        self.gest = "\n                      Rock < [Lizard] or [Scissors]"
+        print(self.gest)
+
+    def gestOne(self):
+        self.gestOne = "\n                     Paper < [Rock] or [Spock]"
+        print(self.gestOne)
+
+    def gestTwo(self):
+        self.gestTwo = "\n                 Scissors < [Paper] or [Lizard]"
+        print(self.gestTwo)
+
+    def gestThree(self):
+        self.gestThree = "\n                   Lizard < [Spock] or [Paper]"
+        print(self.gestThree)
+
+    def gestFour(self):
+        self.gestFour = "\n                     Spock < [Rock] or [Scissors]"
+        print(self.gestFour)
+
+    def start(self):
+        self.start = "{\n__________________________Let_the_Game_________________________________________}"
+        print(self.start)
+
+    def close(self):
+        self.close = "\n                             Begin!"
+        print(self.close)
 
 
